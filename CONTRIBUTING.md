@@ -14,4 +14,4 @@ uv run mini-agent
 
 - Keep changes small and focused.
 - Update `CHANGELOG.md` for user-visible changes.
-- Run `uv run mini-agent` before opening a PR.
+- Run `uv run mini-agent` and `uv run pytest` before opening a PR.

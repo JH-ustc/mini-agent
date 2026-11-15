@@ -12,9 +12,11 @@ A minimal Python agent project skeleton managed with [uv](https://docs.astral.sh
 ```bash
 uv sync
 uv run mini-agent
+uv run pytest
 ```
 
 The entry point is `src/mini_agent/__init__.py` and currently prints `Hello from mini-agent!`.
+`tests/test_smoke.py` verifies that output.
 
 ## Project layout
 
@@ -22,7 +24,8 @@ The entry point is `src/mini_agent/__init__.py` and currently prints `Hello from
 .
 ├── pyproject.toml
 ├── .python-version
-└── src/mini_agent/__init__.py
+├── src/mini_agent/__init__.py
+└── tests/test_smoke.py
 ```
 
 ## Status
