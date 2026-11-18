@@ -4,6 +4,7 @@
 
 - Add `--version` to the CLI and a `python -m mini_agent` entry point.
 - Add a smoke test for the `mini-agent` entry point and wire `pytest` into the dev workflow.
+- Cover the CLI help and usage-error paths in tests.
 
 ## 0.1.0 - 2026-09-29
 
